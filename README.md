@@ -1,13 +1,40 @@
-# Supermarket-Sales-Dashboard
-This challenge aimed to create a high-level KPI Dashboard for the Supermarket team, using a subset of Sales records. The report provides stakeholders with insights into the Supermarket's recent performance and addresses key questions such as: 
-1. What is the most popular sales product line?
-2. What is the gross income per month?
-3. What is the total cost and the total sales?
-4. which city has big sales?
+# hypermarket-Sales-Dashboard
 
+## 📊 **Summary of the Data**
+- **Reporting Period:** Q1 2019 (January – March)
+- **Total Sales:** **$322.97K**
+- **Total Cost:** **$307.59K**
+- **Gross Income:** **$15.38K**
+- **Branches Covered:** A, B, C
+- **Cities Covered:** Yangon, Naypyitaw, Mandalay
+- **Product Lines:** Food & Beverages, Sports & Travel, Electronic Accessories, Fashion Accessories, Home & Lifestyle, Health & Beauty
+- **Customer Demographics:** Gender-based (Male, Female)
+- **Payment Methods:** Cash, E-wallet, Credit Card
 
-Data Preparation: I imported the dataset into Power Query for some thorough cleaning. This involved removing duplicates, handling missing values, changing data types, filtering rows, and getting rid of unwanted columns.
+---
 
-Analysis: I created various DAX formulas and measures to crunch the numbers and uncover insights.
+## 💡 **Summary Insights**
+- **Highest Sales by City:** Naypyitaw and Yangon both contributed **~34.24%** of total sales (~$110.57K each).
+- **Branch-wise Sales:** Branches A and B are tied at ~$106.2K each (~32.88%).
+- **Top Product Lines by Sales:**
+  1. **Food & Beverages** – $56.14K
+  2. **Sports & Travel** – $55.12K
+  3. **Electronic Accessories** – $54.34K
+- **Gender-based Sales:** Sales from **female customers** slightly exceeded **male customers**.
+- **Best Performing Month:** **March** shows highest total sales and gross income in the quarter.
+- **Payment Preferences:** **Cash** is the dominant method, followed by **e-wallets** and **credit cards**.
+- **Tax Contribution:** Highest from **Health & Beauty** and **Home & Lifestyle** products.
 
-Visualization: I brought everything together in Power BI for a detailed analysis  
+---
+
+## 📌 **Key Performance Indicators (KPIs)**
+
+- **Total Sales:** $322,970  
+- **Total Cost:** $307,590  
+- **Gross Income:** $15,380  
+- **Top City:** Naypyitaw (34.24% of total sales)  
+- **Top Product Line:** Food & Beverages ($56.14K)  
+- **Highest Sales Month:** March  
+- **Leading Payment Method:** Cash  
+- **Top Customer Segment:** Female buyers
+
